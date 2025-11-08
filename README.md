@@ -104,6 +104,9 @@ OPENAI_API_KEY=your_openai_api_key
 OPENAI_MODEL=gpt-4o-mini
 ```
 
+## LINKS
+YOUTUBE: https://youtu.be/hXHGs1FBzZ4
+GITHUB: https://github.com/Estelle-Lee/Smishing-Filter
 
-## 📝 라이선스
+## 라이선스
 MIT License
