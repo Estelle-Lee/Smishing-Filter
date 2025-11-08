@@ -75,5 +75,35 @@ streamlit run frontend/streamlit_app.py
 - API 키는 절대 커밋하지 마세요
 - `.env` 파일은 `.gitignore`에 포함되어 있습니다
 
+
+## ⚡ Installation & Setup
+
+1. 리포지토리 클론
+```bash
+git clone https://github.com/Estelle-Lee/Smishing-Filter.git
+cd Smishing-Filter
+```
+
+2. 가상 환경 생성 및 의존성 설치
+```bash
+python -m venv venv
+
+Linux / Mac
+source venv/bin/activate
+
+Windows
+venv\Scripts\activate
+
+pip install -r requirements.txt
+```
+
+
+3. `.env` 파일 생성 및 OpenAI API Key 설정
+```bash
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_MODEL=gpt-4o-mini
+```
+
+
 ## 📝 라이선스
 MIT License
